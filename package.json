@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,9 +17,13 @@
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
     "chai-bignumber": "^3.0.0",
+    "lite-server": "^2.6.1",
     "nodemon": "^2.0.12",
     "openzeppelin-solidity": "^4.2.0",
     "truffle": "^5.4.2",
     "truffle-contract": "^4.0.31"
+  },
+  "dependencies": {
+    "solc": "^0.8.6"
   }
 }
